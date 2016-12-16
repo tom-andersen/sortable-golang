@@ -20,7 +20,7 @@ Please provide path to listings file.
         path to products file
 ```
 
-If you place the products.txt and listings.txt in local folder, then you can run:
+If you place the *products.txt* and *listings.txt* in local folder, then you can run:
 
 ```
 $ ./main.exe -listings listings.txt -products products.txt -output results.txt
