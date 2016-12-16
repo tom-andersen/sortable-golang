@@ -2,11 +2,13 @@
 
 To compile, run:
 
-```./run.sh```
+```
+./run.sh
+```
 
-An executable will be create. On Windows, this is main.exe:
+An executable will be create. On Windows, this is *main.exe*:
 
-```bash
+```
 $ ./main.exe
 
 Please provide path to listings file.
@@ -16,12 +18,11 @@ Please provide path to listings file.
         path to output file
   -products string
         path to products file
-
 ```
 
 If you place the products.txt and listings.txt in local folder, then you can run:
 
-```bash
+```
 $ ./main.exe -listings listings.txt -products products.txt -output results.txt
 
 20196 listings read.
@@ -29,4 +30,4 @@ $ ./main.exe -listings listings.txt -products products.txt -output results.txt
 7290 matches written.
 ```
 
-This will create a results.txt file.
+This will create a *results.txt* file.
